@@ -1,0 +1,37 @@
+@import "bootstrap";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.slide {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 2em 15%;
+
+  code strong {
+    text-decoration: underline;
+  }
+
+  .centered {
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    margin-top: -1em;
+    height: 2em;
+    top: 50%
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .main-list {
+    font-size: 200%;
+  }
+}
